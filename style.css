@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#links{
+    border: solid 1px;
+    height: 40px;
+    background-color: navy;
+    line-height: 40px;
+}
+#text1,#text2,#text3,#text4,#text5{
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+    padding-right: 20px;
+}
+#text1{
+    padding-left: 35px;
+}
+.out1{
+    border: solid 1px;
+    height: 150px;
+    display: flex;
+}
+#in1,#in2{
+    border: solid 1px;
+    height: 150px;
+}
+#in1{
+    width: 150px;
+}
+#in2{
+    width: 1300px;
+    text-align: center;
+    background-color: #f1eaea90;
+}
+#clg{
+    font-size: 50px;
+    color: red;
+}
+#txt1,#txt2{
+    font-size: 30px;
+    font-weight: bold;
+}
+#ugc{
+    background-color: brown;
+    height: 20px;
+    color: yellow;
+    font-size: 20px;
+    font-weight: bold;
+}
+#navbox{
+    border: solid 1px;
+    height: 50px;
+}
+ul li{
+    border: solid 1px;
+    height: 50px;
+    width: 173px;
+    float: left;
+    background-color: navy;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 20px;
+    margin-right: 2px;
+    margin-bottom: 1px;
+}
+ul li a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+ul li ul li{
+    display: none;
+}
+ul li:hover ul li{
+    display: block;
+    z-index: 1;
+    position: relative;
+}
+ul li:hover{
+    background-color: cadetblue;
+}
+.logos{
+    border: solid 1px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    background-color: navy;
+}
+#lg1,#lg2,#lg3,#lg4,#lg5{
+    border: solid 1px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+.obox{
+    border: solid 1px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+#inbox1,#inbox2,#inbox3{
+    border: solid 1px;
+    height: 400px;
+}
+#inbox1{
+    width: 600px;
+    background-image: url(bg1.jpeg);
+    background-repeat: no-repeat;
+    background-size: 600px 400px;
+    animation-name: imgchange;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes imgchange{
+    0%{
+        background-image: url(campus.jpg);
+    }
+    10%{
+        background-image: url(images.jpg));
+    }
+    20%{
+        background-image: url(imag);
+    }
+    30%{
+        background-image: url(bg5.jpeg);
+    }
+    40%{
+        background-image: url(bg6.jpeg);
+    }
+}
+#inbox2,#inbox3{
+    width: 300px;
+    text-align: center;
+}
